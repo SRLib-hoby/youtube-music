@@ -1,0 +1,27 @@
+#lyricsHud {
+  z-index: 998;
+  position: absolute;
+  bottom: 15%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-height: 30%;
+  overflow: hidden;
+  text-align: center;
+  pointer-events: none;
+  transition: opacity 0.5s;
+  font-size: 1.6rem;
+  color: white;
+  text-shadow: 0 0 6px black;
+}
+
+#lyricsHud .hud-line {
+  padding: 2px 0;
+  opacity: 0.4;
+  transition: opacity 0.3s;
+}
+
+#lyricsHud .hud-line.active {
+  font-weight: bold;
+  opacity: 1;
+}

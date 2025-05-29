@@ -552,6 +552,10 @@
         "fetched-lyrics": "已从 Genius 获取歌词"
       }
     },
+    "lyrics-hud": {
+      "description": "在屏幕上显示随播放进度滚动的歌词",
+      "name": "歌词提示器"
+    },
     "music-together": {
       "description": "与他人共享播放列表。当发起人播放歌曲时，其他人也会听到相同歌曲",
       "dialog": {
