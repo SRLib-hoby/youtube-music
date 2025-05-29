@@ -365,7 +365,7 @@ export default createPlugin({
 ## Build
 
 1. Clone the repo
-2. Follow [this guide](https://pnpm.io/installation) to install `pnpm`
+2. Install `pnpm` **v10** or higher (for example via `corepack prepare pnpm@10 --activate`)
 3. Run `pnpm install --frozen-lockfile` to install dependencies
 4. Run `pnpm build:OS`
 

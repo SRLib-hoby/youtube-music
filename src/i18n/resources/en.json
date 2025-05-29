@@ -552,6 +552,10 @@
         "fetched-lyrics": "Fetched lyrics for Genius"
       }
     },
+    "lyrics-hud": {
+      "description": "Display scrolling lyrics overlay synced with playback",
+      "name": "Lyrics HUD"
+    },
     "music-together": {
       "description": "Share a playlist with others. When the host plays a song, everyone else will hear the same song",
       "dialog": {
